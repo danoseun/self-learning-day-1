@@ -1,0 +1,34 @@
+{
+  "name": "self-learning-day-1",
+  "version": "1.0.0",
+  "description": "OOP",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danoseun/self-learning-day-1.git"
+  },
+  "keywords": [
+    "OOP",
+    "Javascript"
+  ],
+  "author": "Oluwaseun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danoseun/self-learning-day-1/issues"
+  },
+  "homepage": "https://github.com/danoseun/self-learning-day-1#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
